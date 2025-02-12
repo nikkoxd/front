@@ -74,13 +74,16 @@ section {
   padding: 0 80px;
 }
 
+section:first-of-type {
+  margin-top: 48px;
+}
+
 .more {
   margin-top: 56px;
   text-align: right;
 }
 
 .hero {
-  margin-top: 48px;
   display: flex;
   justify-content: space-between;
 }
@@ -254,5 +257,40 @@ footer {
 }
 
 .footer_col:last-of-type {
+  text-align: right;
+}
+
+.about_img {
+  margin-top: 64px;
+}
+
+.about_img .placeholder-img {
+  height: 637px;
+
+  background-color: #D9D9D9;
+  border-radius: 32px;
+}
+
+.development_list {
+  margin-top: 64px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.development_card {
+  height: 522px;
+  padding: 25px 35px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: #D9D9D9;
+  border-radius: 25px;
+}
+
+.development_card_button {
   text-align: right;
 }
