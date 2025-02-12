@@ -418,3 +418,14 @@ footer {
   flex-direction: column;
   gap: 32px;
 }
+
+.contacts_page {
+  margin-top: 0px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contacts_page .contacts_left h1 {
+  margin: 0;
+}
