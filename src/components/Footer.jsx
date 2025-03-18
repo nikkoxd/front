@@ -1,34 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer_col">
-        <img src="../img/logo.svg" alt="logo" />
+        <Link to="/">
+          <img src="../img/logo.svg" alt="logo" />
+        </Link>
       </div>
       <div className="footer_col">
         <nav className="footer_nav">
           <ul>
-            <li><a href="/about">Об ОЭЗ</a></li>
-            <li><a href="/services">Услуги</a></li>
-            <li><a href="/platforms">Площадки</a></li>
-            <li><a href="/residents">Резиденты</a></li>
+            <li><Link to="/about">Об ОЭЗ</Link></li>
+            <li><Link to="/services">Услуги</Link></li>
+            <li><Link to="/platforms">Площадки</Link></li>
+            <li><Link to="/residents">Резиденты</Link></li>
           </ul>
         </nav>
       </div>
       <div className="footer_col">
         <nav className="footer_nav">
           <ul>
-            <li><a href="/vacancies">Вакансии</a></li>
-            <li><a href="/partners">Партнеры</a></li>
-            <li><a href="/news">Новости</a></li>
-            <li><a href="/contacts">Контакты</a></li>
-            <li><a href="/privacy">Политика конфиденциальности</a></li>
+            <li><Link to="/vacancies">Вакансии</Link></li>
+            <li><Link to="/partners">Партнеры</Link></li>
+            <li><Link to="/news">Новости</Link></li>
+            <li><Link to="/contacts">Контакты</Link></li>
+            <li><Link to="/privacy">Политика конфиденциальности</Link></li>
           </ul>
         </nav>
       </div>
       <div className="footer_col">
-        <a className="button" href="#">Получить консультацию</a>
+        <Link to="/consultation" className="button">Получить консультацию</Link>
       </div>
     </footer>
   );

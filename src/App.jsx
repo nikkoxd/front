@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -17,24 +17,22 @@ import Account from './pages/Account';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Header />
+    <BrowserRouter>
+      <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/platforms" element={<Platforms />} />
-          <Route path="/residents" element={<Residents />} />
-          <Route path="/vacancies" element={<Vacancies />} />
-          <Route path="/partners" element={<Partners />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="/account" element={<Account />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="platforms" element={<Platforms />} />
+          <Route path="residents" element={<Residents />} />
+          <Route path="vacancies" element={<Vacancies />} />
+          <Route path="partners" element={<Partners />} />
+          <Route path="news" element={<News />} />
+          <Route path="contacts" element={<Contacts />} />
+          <Route path="account" element={<Account />} />
         </Routes>
-        <Footer />
-      </div>
-    </Router>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
