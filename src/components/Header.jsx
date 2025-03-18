@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <div className="header_left">
         <a href="/">
-          <img src="/img/logo.svg" alt="logo" />
+          <img src="../img/logo.svg" alt="logo" />
         </a>
       </div>
       <div className="header_center">
@@ -23,8 +23,8 @@ const Header = () => {
         </nav>
       </div>
       <div className="header_right">
-        <a href="/search"><img src="/img/search.svg" alt="search" /></a>
-        <a href="/account"><img src="/img/profile.svg" alt="profile" /></a>
+        <a href="/search"><img src="../img/search.svg" alt="search" /></a>
+        <a href="/account"><img src="../img/profile.svg" alt="profile" /></a>
       </div>
     </header>
   );

@@ -3,7 +3,7 @@ const Home = () => {
         <main>
             <section className="hero">
                 <div className="hero_left">
-                    <img src="/img/logo_large.svg" alt="large logo" />
+                    <img src="../img/logo_large.svg" alt="large logo" />
                     <p>Добро пожаловать в Титановую Долину — уникальную особую экономическую зону промышленно-производственного типа в Свердловской области!</p>
                 </div>
                 <div className="hero_right">
@@ -13,7 +13,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="hero_img">
-                <img src="/img/photo.png" alt="photo" />
+                <img src="../img/photo.png" alt="photo" />
             </section>
             <section className="advantages">
                 <div className="content">
@@ -83,23 +83,23 @@ const Home = () => {
                     <h1>Вакансии</h1>
                     <div className="vacancies_list">
                         <div className="vacancies_item">
-                            <img src="/img/vacancy_1.png" alt="vacancy 1" />
+                            <img src="../img/vacancy_1.png" alt="vacancy 1" />
                             <h3>Инженер службы заказчика (КЖ, КМ, АР, ГП)</h3>
                         </div>
                         <div className="vacancies_item">
-                            <img src="/img/vacancy_2.png" alt="vacancy 2" />
+                            <img src="../img/vacancy_2.png" alt="vacancy 2" />
                             <h3>Помощник инженера</h3>
                         </div>
                         <div className="vacancies_item">
-                            <img src="/img/vacancy_3.png" alt="vacancy 3" />
+                            <img src="../img/vacancy_3.png" alt="vacancy 3" />
                             <h3>Карьера в Миникат</h3>
                         </div>
                         <div className="vacancies_item">
-                            <img src="/img/vacancy_4.png" alt="vacancy 4" />
+                            <img src="../img/vacancy_4.png" alt="vacancy 4" />
                             <h3>Карьера ВСМПО-АВИСМА</h3>
                         </div>
                         <div className="vacancies_item">
-                            <img src="/img/vacancy_5.png" alt="vacancy 5" />
+                            <img src="../img/vacancy_5.png" alt="vacancy 5" />
                             <h3>Карьера в ЭКОТЕХ</h3>
                         </div>
                     </div>
@@ -154,45 +154,45 @@ const Home = () => {
                     <div className="contacts_item">
                         <h3>ОЭЗ «ТИТАНОВАЯ ДОЛИНА»</h3>
                         <div className="contact_info">
-                            <img src="/img/location.svg" alt="location" />
+                            <img src="../img/location.svg" alt="location" />
                             <p>620075 Российская Федерация, Екатеринбург, ул. Малышева, стр. 51, офис 2102</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/phone.svg" alt="phone" />
+                            <img src="../img/phone.svg" alt="phone" />
                             <p>Тел: +7 343 243 55 83</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/email.svg" alt="e-mail" />
+                            <img src="../img/email.svg" alt="e-mail" />
                             <p>Почта: welcome@titanium-valley.com</p>
                         </div>
                     </div>
                     <div className="contacts_item">
                         <h3>ОЭЗ «ТИТАНОВАЯ ДОЛИНА»</h3>
                         <div className="contact_info">
-                            <img src="/img/location.svg" alt="location" />
+                            <img src="../img/location.svg" alt="location" />
                             <p>620075 Российская Федерация, Екатеринбург, ул. Малышева, стр. 51, офис 2102</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/phone.svg" alt="phone" />
+                            <img src="../img/phone.svg" alt="phone" />
                             <p>Тел: +7 343 243 55 83</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/email.svg" alt="e-mail" />
+                            <img src="../img/email.svg" alt="e-mail" />
                             <p>Почта: welcome@titanium-valley.com</p>
                         </div>
                     </div>
                     <div className="contacts_item">
                         <h3>ОЭЗ «ТИТАНОВАЯ ДОЛИНА»</h3>
                         <div className="contact_info">
-                            <img src="/img/location.svg" alt="location" />
+                            <img src="../img/location.svg" alt="location" />
                             <p>620075 Российская Федерация, Екатеринбург, ул. Малышева, стр. 51, офис 2102</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/phone.svg" alt="phone" />
+                            <img src="../img/phone.svg" alt="phone" />
                             <p>Тел: +7 343 243 55 83</p>
                         </div>
                         <div className="contact_info">
-                            <img src="/img/email.svg" alt="e-mail" />
+                            <img src="../img/email.svg" alt="e-mail" />
                             <p>Почта: welcome@titanium-valley.com</p>
                         </div>
                     </div>
