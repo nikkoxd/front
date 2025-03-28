@@ -19,18 +19,18 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-        <Routes>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="platforms" element={<Platforms />} />
-          <Route path="residents" element={<Residents />} />
-          <Route path="vacancies" element={<Vacancies />} />
-          <Route path="partners" element={<Partners />} />
-          <Route path="news" element={<News />} />
-          <Route path="contacts" element={<Contacts />} />
-          <Route path="account" element={<Account />} />
-        </Routes>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="platforms" element={<Platforms />} />
+        <Route path="residents" element={<Residents />} />
+        <Route path="vacancies" element={<Vacancies />} />
+        <Route path="partners" element={<Partners />} />
+        <Route path="news" element={<News />} />
+        <Route path="contacts" element={<Contacts />} />
+        <Route path="account" element={<Account />} />
+      </Routes>
       <Footer />
     </BrowserRouter>
   );
