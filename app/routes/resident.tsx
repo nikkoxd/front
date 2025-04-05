@@ -67,7 +67,7 @@ export default function Resident({ loaderData }: Route.ComponentProps) {
 
   return (
     <Page title={residentInfo.name}>
-      <section className="px-[80px]">
+      <section>
         <img src={residentInfo.photoUrl} alt={residentInfo.name} className="w-full h-[637px] rounded-[32px]" />
       </section>
       <Section title="О компании" horizontal>

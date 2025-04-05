@@ -5,7 +5,7 @@ import ResidentCard from "~/components/residentcard";
 export default function Residents() {
   return (
     <Page title="Резиденты">
-      <section className="grid grid-cols-3 gap-[40px] px-[80px]">
+      <section className="grid grid-cols-3 gap-[40px]">
         <NavLink to="1"><ResidentCard image="/residents/1.png" alt="1" /></NavLink>
         <NavLink to="2"><ResidentCard image="/residents/2.png" alt="2" /></NavLink>
         <NavLink to="3"><ResidentCard image="/residents/3.png" alt="3" /></NavLink>

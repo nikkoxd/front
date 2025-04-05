@@ -14,7 +14,7 @@ export function meta({ }: Route.MetaArgs) {
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col gap-[15px] mt-[48px] px-[80px]">
+      <section className="flex flex-col gap-[15px] mt-[48px]">
         <div className="flex justify-between">
           <div className="max-w-[45%]">
             <img src="/logo_large.svg" alt="Logo" />

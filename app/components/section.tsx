@@ -1,5 +1,5 @@
 export default function Section({ title, subtitle, horizontal, children }: { title: string, subtitle?: string, horizontal?: boolean, children: React.ReactNode }) {
-  let className = "mt-[160px] px-[80px] "
+  let className = "mt-[160px] "
   if (horizontal) {
     className += "grid grid-cols-2"
   } else {

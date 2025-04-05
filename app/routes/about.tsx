@@ -13,7 +13,7 @@ export function meta({ }: Route.MetaArgs) {
 export default function About() {
   return (
     <Page title="Об ОЭЗ">
-      <section className="px-[80px]">
+      <section>
         <img src="/photo_2.png" alt="Photo" className="w-full h-[637px] rounded-[32px]" />
       </section>
       <Section title="Преимущества" subtitle="на территории ОЭЗ &quot;Титановая долина&quot;" horizontal>
@@ -73,7 +73,7 @@ export default function About() {
           content="Мы стремимся заботиться об окружающей среде, честно и открыто рассказывать про деятельность АО &quot;ОЭЗ &quot;Титановая долина&quot;, соблюдать баланс между работой и личной жизнью каждого сотрудника, осознанно подходить к организации бизнес-процессов в нашей компании"
           />
       </Section>
-      <section className="mt-[64px] px-[80px] grid grid-cols-2 gap-[40px]">
+      <section className="mt-[64px] grid grid-cols-2 gap-[40px]">
         <Card 
           title="Экологическая ответственность" 
           description={ "01 Управление выбросами загрязняющих веществ\n02 Управление водными ресурсами" }

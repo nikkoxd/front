@@ -37,7 +37,7 @@ export default function Platform({ loaderData }: Route.ComponentProps) {
   const platformInfo = platformData[Number(loaderData.id) - 1]
   return (
     <Page title={ `Площадка "${platformInfo.name}"` }>
-      <section className="grid grid-cols-2 px-[80px]">
+      <section className="grid grid-cols-2">
         <div>
           <p>{platformInfo.description}</p>
         </div>

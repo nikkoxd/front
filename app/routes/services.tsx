@@ -11,7 +11,7 @@ export function meta({ }: Route.MetaArgs) {
 export default function Services() {
   return (
     <Page title="Услуги">
-      <div className="grid grid-cols-2 px-[80px] gap-[40px]">
+      <div className="grid grid-cols-2 gap-[40px]">
         <ServiceCard
           title="Содержание и техническое обслуживание автодорожной инфраструктуры на территории ОЭЗ"
           price="20 000 руб. в месяц за 1 Га площади участка резидента"
