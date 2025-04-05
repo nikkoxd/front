@@ -3,6 +3,7 @@ import type { Route } from "./+types/home";
 import Section from "~/components/section";
 import Info from "~/components/info";
 import ServiceCard from "~/components/servicecard";
+import ResidentCard from "~/components/residentcard";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -126,16 +127,17 @@ export default function Home() {
         </div>
       </Section>
       <Section title="Партнеры">
-        <div className="grid grid-cols-4 grid-rows-2 h-[620px] gap-[40px]">
-          <div className="col-span-1 row-span-2 bg-gray-200 rounded-[24px]" />
-          <div className="col-span-1 row-span 1 bg-gray-200 rounded-[16px]" />
-          <div className="col-span-1 row-span 1 bg-gray-200 rounded-[16px]" />
-          <div className="col-span-1 row-span-2 bg-gray-200 rounded-[24px]" />
-          <div className="col-span-1 row-span 1 bg-gray-200 rounded-[16px]" />
-          <div className="col-span-1 row-span 1 bg-gray-200 rounded-[16px]" />
+        <div className="grid grid-cols-3 gap-[40px]">
+          <ResidentCard image="/partners/1.png" alt="Partner 1" />
+          <ResidentCard image="/partners/2.png" alt="Partner 2" />
+          <ResidentCard image="/partners/3.png" alt="Partner 3" />
+          <ResidentCard image="/partners/4.png" alt="Partner 4" />
+          <ResidentCard image="/partners/5.png" alt="Partner 5" />
+          <ResidentCard image="/partners/6.png" alt="Partner 6" />
+          <ResidentCard image="/partners/7.png" alt="Partner 7" />
         </div>
         <div className="mt-[54px] text-right">
-          <Button to="partners">Узнать больше</Button>
+          <Button to="partners">Узнать подробнее</Button>
         </div>
       </Section>
       <Section title="Новости">
