@@ -1,15 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary: #f18917;
+  --color-secondary: #89bde7;
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+@layer base {
+  p {
+    font-size: 20px;
+    line-height: 27.32px;
+    margin: 8px 0;
+  }
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+  h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 87.42px;
+    margin: 8px 0;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54.64px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38.25px;
+    margin: 0;
   }
 }
