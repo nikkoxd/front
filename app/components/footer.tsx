@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-4 mt-[160px] mb-[200px] mx-[80px] py-[32px] border-t-[1px] border-t-black">
+    <footer className="container mx-auto grid grid-cols-4 mt-[160px] mb-[200px] py-[32px] border-t-[1px] border-t-black">
       <div>
         <NavLink to="/">
           <img src="/logo.svg" alt="Logo" />

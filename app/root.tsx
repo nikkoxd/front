@@ -36,7 +36,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Header />
-        <main className="px-[80px]">
+        <main className="container mx-auto">
           {children}
         </main>
         <Footer />
