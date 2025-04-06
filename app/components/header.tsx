@@ -2,8 +2,8 @@ import { NavLink } from "react-router";
 
 export default function Header() {
   return (
-    <header className="container mx-auto flex justify-between items-center py-[40px]">
-      <div>
+    <header className="container mx-auto flex flex-wrap justify-between items-center py-[40px]">
+      <div className="shrink-0">
         <NavLink to="/">
           <img src="/logo.svg" alt="Logo" />
         </NavLink>
@@ -22,7 +22,7 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-      <div className="flex gap-[24px]">
+      <div className="flex gap-[24px] shrink-0">
         <NavLink to="search">
           <img src="/search.svg" alt="Search" />
         </NavLink>

@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <>
       <section className="flex flex-col gap-[15px] mt-[48px]">
-        <div className="flex justify-between">
-          <div className="max-w-[45%]">
+        <div className="grid sm:grid-cols-2">
+          <div>
             <img src="/logo_large.svg" alt="Logo" />
             <p className="mt-[20px]">Добро пожаловать в Титановую Долину — уникальную особую экономическую зону промышленно-производственного типа в Свердловской области!</p>
           </div>
-          <div>
+          <div className="py-8 sm:py-0 sm:text-right">
             <Button to="consultation">Получить консультацию</Button>
           </div>
         </div>
