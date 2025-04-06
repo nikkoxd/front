@@ -18,8 +18,9 @@ export default [
 
   route("vacancies/:id?", "routes/vacancies.tsx"),
 
+  route("news/:id?", "routes/news.tsx"),
+
   route("partners", "routes/partners.tsx"),
-  route("news", "routes/news.tsx"),
   route("contacts", "routes/contacts.tsx"),
   route("profile", "routes/profile.tsx"),
 ] satisfies RouteConfig;
