@@ -32,6 +32,13 @@ const platformData: PlatformData[] = [
   },
 ]
 
+export function meta({ data }: Route.MetaArgs) {
+  const platformInfo = platformData[Number(data.id) - 1]
+  return [
+    { title: `${platformInfo.name} - Титановая Долина` },
+  ];
+}
+
 export default function Platform({ loaderData }: Route.ComponentProps) {
   // TODO: Fetch this data from backend
   const platformInfo = platformData[Number(loaderData.id) - 1]

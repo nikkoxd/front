@@ -61,6 +61,13 @@ const residentData: ResidentData[] = [
   }
 ]
 
+export function meta({ data }: Route.MetaArgs) {
+  const residentInfo = residentData[Number(data.id) - 1]
+  return [
+    { title: `${residentInfo.name} - Титановая Долина` },
+  ];
+}
+
 export default function Resident({ loaderData }: Route.ComponentProps) {
   // TODO: Fetch this data from backend
   const residentInfo = residentData[Number(loaderData.id) - 1]

@@ -1,6 +1,13 @@
 import { NavLink } from "react-router";
 import Page from "~/components/page";
 import ResidentCard from "~/components/residentcard";
+import type { Route } from "./+types/residents";
+
+export function meta({ }: Route.MetaArgs) {
+  return [
+    { title: "Резиденты - Титановая Долина" },
+  ];
+}
 
 export default function Residents() {
   return (

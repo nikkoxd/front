@@ -1,5 +1,12 @@
 import { NavLink } from "react-router";
 import Page from "~/components/page";
+import type { Route } from "./+types/platforms";
+
+export function meta({ }: Route.MetaArgs) {
+  return [
+    { title: "Площадки - Титановая Долина" },
+  ];
+}
 
 export default function Platforms() {
   return (
