@@ -35,7 +35,7 @@ const platformData: PlatformData[] = [
 export function meta({ data }: Route.MetaArgs) {
   const platformInfo = platformData[Number(data.id) - 1]
   return [
-    { title: `${platformInfo.name} - Титановая Долина` },
+    { title: `${platformInfo.name} - Площадки - Титановая Долина` },
   ];
 }
 

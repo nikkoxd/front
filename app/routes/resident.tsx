@@ -64,7 +64,7 @@ const residentData: ResidentData[] = [
 export function meta({ data }: Route.MetaArgs) {
   const residentInfo = residentData[Number(data.id) - 1]
   return [
-    { title: `${residentInfo.name} - Титановая Долина` },
+    { title: `${residentInfo.name} - Резиденты - Титановая Долина` },
   ];
 }
 
