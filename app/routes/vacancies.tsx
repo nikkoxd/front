@@ -37,26 +37,26 @@ const vacancyData: Vacancy[] = [
   {
     name: "Электромонтер по ремонту и обслуживанию электрооборудования 3-8 рязряд",
     photoUrl: "/vacancy_2.png",
-    requirements: "idk",
-    responsibilities: "idk",
-    salary: "idk",
-    workConditions: "idk"
+    requirements: "хз",
+    responsibilities: "хз",
+    salary: "хз",
+    workConditions: "хз"
   },
   {
     name: "Резчик холодного металла 3-5 разряд",
     photoUrl: "/vacancy_3.png",
-    requirements: "idk",
-    responsibilities: "idk",
-    salary: "idk",
-    workConditions: "idk"
+    requirements: "хз",
+    responsibilities: "хз",
+    salary: "хз",
+    workConditions: "хз"
   },
   {
     name: "Оператор поста управления стана горячей прокатки 3-6 разряд",
     photoUrl: "/vacancy_4.png",
-    requirements: "idk",
-    responsibilities: "idk",
-    salary: "idk",
-    workConditions: "idk"
+    requirements: "хз",
+    responsibilities: "хз",
+    salary: "хз",
+    workConditions: "хз"
   },
 ]
 
