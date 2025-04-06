@@ -16,7 +16,8 @@ export default [
     route(":id", "routes/resident.tsx"),
   ]),
 
-  route("vacancies", "routes/vacancies.tsx"),
+  route("vacancies/:id?", "routes/vacancies.tsx"),
+
   route("partners", "routes/partners.tsx"),
   route("news", "routes/news.tsx"),
   route("contacts", "routes/contacts.tsx"),
