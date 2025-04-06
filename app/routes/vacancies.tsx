@@ -79,19 +79,19 @@ export default function Vacancies({ loaderData }: Route.ComponentProps) {
           <img src={vacancyInfo.photoUrl} alt={vacancyInfo.name} className="object-cover aspect-square rounded-[24px]" />
           <div className="flex flex-col">
             <div className="grid grid-cols-2">
-              <p className="flex items-center h-full border-r-1 border-black">Требования к сотруднику</p>
+              <p className="flex items-center h-full border-r-1 border-black"><img src="/requirements.svg" className="mr-[5px]" />Требования к сотруднику</p>
               <p className="pl-12 py-[60px]">{vacancyInfo.requirements}</p>
             </div>
             <div className="grid grid-cols-2">
-              <p className="flex items-center h-full border-r-1 border-black">Обязанности сотрудника</p>
+              <p className="flex items-center h-full border-r-1 border-black"><img src="/responsibilities.svg" className="mr-[5px]" />Обязанности сотрудника</p>
               <p className="pl-12 py-[60px]">{vacancyInfo.responsibilities}</p>
             </div>
             <div className="grid grid-cols-2">
-              <p className="flex items-center h-full border-r-1 border-black">Уровень заработной платы</p>
+              <p className="flex items-center h-full border-r-1 border-black"><img src="/salary.svg" className="mr-[5px]" />Уровень заработной платы</p>
               <p className="pl-12 py-[60px]">{vacancyInfo.salary}</p>
             </div>
             <div className="grid grid-cols-2">
-              <p className="flex items-center h-full border-r-1 border-black">Условия работы</p>
+              <p className="flex items-center h-full border-r-1 border-black"><img src="/work_conditions.svg" className="mr-[5px]" />Условия работы</p>
               <p className="pl-12 py-[60px]">{vacancyInfo.workConditions}</p>
             </div>
           </div>
